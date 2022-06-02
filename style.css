@@ -1,0 +1,116 @@
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 10rem;
+  text-shadow: 2px 2px red;
+  color: black;
+}
+
+h1:hover{
+    color: red;
+}
+h2 {
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    font-weight:bold;
+}
+h2:hover{
+    color: red;
+}
+h3{
+  font-family: "Bebas Neue", cursive;
+  font-size: 90px;
+  text-shadow: 2px 2px black;
+  color: #FAC213;
+
+}
+
+h3:hover{
+  color:red;
+}
+p {
+  color: white;
+  text-shadow: 2px 2px black;
+  line-height: 1.5;
+}
+#home {
+    background-image: url(bw.jpg);
+   
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
+      background-size: cover;
+  
+  }
+  
+  .nav {
+    padding-top: 20px;
+  }
+  .content {
+    text-align: center;
+    padding-bottom: 300px;
+     
+  }
+  .nav-item {
+      padding:0 18px;
+      color: red ;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .img {
+    height: 500px;
+  }
+
+  /* gadgets */
+#gadgets{
+    /* background-color: red; */
+    background-image: url(batcave.jpg);
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+    text-align: center;
+}
+
+.g-img{
+  width:100%;
+  margin-top:5%;
+  border-radius:10%;
+
+}
+.carousel-item{
+  padding: 8% 15%;
+}
+
+/* love */
+#love{
+  padding:10% 15%;
+  background-image: url(cat3.png);
+  background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.cat{
+  width:100%;
+  border-radius: 50%;
+}
+
+#foot{
+  text-align: center;
+  padding:50px 0 20px ;
+  background-color: #F32424;
+  
+}
+
