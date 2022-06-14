@@ -136,4 +136,8 @@ p {
   }
 }
 
+.press{
+  box-shadow: 0px 3px 4px red;
+  opacity: 0.8;
+}
 
